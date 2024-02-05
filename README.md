@@ -1,6 +1,6 @@
 # НВП Болид
 ### Используемые технологии:
-vue3,
+`vue3,
 composition api,
 vite,
 vue-router,
@@ -8,7 +8,7 @@ eslint,
 prettier,
 json-server,
 sass,
-TransitionGroup,
+TransitionGroup`
 
 ## Для того чтобы запустить приложение необходимо пройти 4 этапа:
 - Установить все зависимости: 
