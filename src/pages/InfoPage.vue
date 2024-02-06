@@ -3,7 +3,7 @@ import { ref } from 'vue';
 import { useRoute } from 'vue-router';
 
 const route = useRoute();
-const sensorData = ref([]);
+const sensorData = ref({});
 
 async function getDataSensor() {
   const response = await fetch(`http://localhost:3000/data/${route.params.id}`);
